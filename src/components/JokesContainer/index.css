@@ -1,0 +1,115 @@
+@media screen and (max-width: 768px) {
+  .bg-container {
+    margin: 0px;
+    background-image: linear-gradient(to right, #0264cf, #323a69, #51555e);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
+
+  .heading {
+    color: #03870e;
+
+    position: relative;
+
+    animation: moveUpDown 0.5s infinite alternate;
+
+    font-family: 'Roboto';
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: 5px;
+    }
+  }
+
+  .jokes-container {
+    width: 370px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .popup-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    width: 370px;
+    height: 250px;
+    background-image: linear-gradient(to right, #424242, #242121);
+  }
+
+  .joke {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .bg-container {
+    margin: 0px;
+    background-image: linear-gradient(to right, #0264cf, #323a69, #51555e);
+    background-size: cover;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .heading {
+    color: #03870e;
+    font-size: 40px;
+
+    position: relative;
+
+    animation: moveUpDown 0.5s infinite alternate;
+
+    font-family: 'Roboto';
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: 5px;
+    }
+  }
+
+  .jokes-container {
+    width: 870px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .popup-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    width: 370px;
+    height: 250px;
+    background-image: linear-gradient(to right, #424242, #242121);
+  }
+
+  .joke {
+    color: white;
+  }
+
+  .loader-symbol {
+    color: white;
+  }
+}

@@ -1,0 +1,187 @@
+@media screen and (max-width: 768px) {
+  .joke-box {
+    margin-top: 20px;
+    width: 80px;
+    background: white;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .joke-box:hover {
+    width: 100px;
+  }
+  .active {
+    opacity: 0.5;
+  }
+
+  .category {
+    font-size: 16px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Roboto';
+  }
+
+  .text {
+    display: none;
+  }
+
+  .modal-content {
+    background-image: linear-gradient(to right, #545454, #2b2b2b);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .popup-heading {
+    color: white;
+    align-self: center;
+    font-family: 'Roboto';
+  }
+
+  .close-button {
+    background-color: transparent;
+    border: none;
+    align-self: flex-end;
+    border-radius: 50%;
+  }
+
+  .icon {
+    border: none;
+    color: white;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .next-joke-button {
+    color: black;
+    background-color: blue;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 10px;
+  }
+
+  .content-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .loader {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .joke-box {
+    width: 150px;
+    height: 100px;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .joke-box:hover {
+    width: 155px;
+    height: 105px;
+  }
+
+  .category {
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: darkblue;
+    text-align: center;
+  }
+
+  .text {
+    font-family: 'Roboto';
+    color: blue;
+    text-align: center;
+  }
+  .active {
+    background-color: yellow;
+  }
+
+  .modal-content {
+    background-image: linear-gradient(to right, #545454, #2b2b2b);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-heading {
+    color: white;
+    align-self: center;
+    font-family: 'Roboto';
+  }
+
+  .close-button {
+    background-color: transparent;
+    border: none;
+    align-self: flex-end;
+  }
+
+  .icon {
+    border: none;
+    color: white;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .joke {
+    color: white;
+    align-self: center;
+    margin: 0px 20px;
+    font-family: 'Roboto';
+  }
+
+  .next-joke-button {
+    color: black;
+    background-color: blue;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .content-container {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .loader {
+    align-self: center;
+  }
+}
